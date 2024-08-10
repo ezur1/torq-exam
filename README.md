@@ -1,7 +1,7 @@
 
 # ip-to-country-torq
 
-This is a web application built as part of an exam project for Torq company. The application allows users to translate IP addresses into their respective countries and display the local time for each IP address. It supports simultaneous IP address lookups and includes features like input validation, real-time updates, and a user-friendly interface.
+This web application, developed as part of an exam project for Torq, enables users to translate IP addresses into corresponding countries and display the local time for each. The application supports simultaneous lookups, input validation, real-time updates, and a user-friendly interface.
 
 ## Table of Contents
 
@@ -15,63 +15,70 @@ This is a web application built as part of an exam project for Torq company. The
 ## Installation
 
 1. Clone the repository:
-
-   git clone [<repository-url>](https://github.com/ezur1/torq-exam.git)
+   \`\`\`sh
+   git clone https://github.com/ezur1/torq-exam.git
    cd ip-to-country-torq
+   \`\`\`
 
 2. Install dependencies:
+   \`\`\`sh
    npm install
+   \`\`\`
 
 ## Usage
 
-To run the application locally, use the following command:
+To run the application locally:
 
+\`\`\`sh
 npm run dev
+\`\`\`
 
+Access the app at \`http://localhost:3000\`.
 
-This will start the development server, and you can view the application in your browser at \`http://localhost:3000\`.
+To build for production:
 
-To build the application for production:
-
+\`\`\`sh
 npm run build
-
+\`\`\`
 
 To preview the production build:
 
+\`\`\`sh
 npm run preview
-
+\`\`\`
 
 ## Project Structure
 
-The project follows a standard Vue 3 structure with the following key components:
+The project adheres to a typical Vue 3 structure:
 
-- **src/**: Contains all the source code.
-  - **components/**: Vue components for the application.
-  - **store/**: Pinia store for state management.
-  - **App.vue**: The root component.
-  - **main.ts**: The entry point of the application.
+- **src/**: Main source code directory.
+  - **components/**: Vue components.
+  - **store/**: Pinia state management.
+  - **App.vue**: Root component.
+  - **main.ts**: Entry point.
 
 ## Scripts
 
 - \`npm run dev\`: Start the development server.
-- \`npm run build\`: Build the application for production.
+- \`npm run build\`: Build for production.
 - \`npm run preview\`: Preview the production build.
-- \`npm run test\`: Run the unit tests with Vitest.
+- \`npm run test\`: Run unit tests with Vitest.
 
 ## Technologies Used
 
-- **Vue 3**: The JavaScript framework for building user interfaces.
-- **TypeScript**: For static type checking.
-- **Pinia**: State management library for Vue.
-- **Vuetify**: Material Design component framework for Vue.
-- **Vite**: Next-generation frontend tooling.
-- **Axios**: For making HTTP requests.
-- **Vitest**: For unit testing.
-- **Happy DOM**: DOM implementation used in testing.
+- **Vue 3**: JavaScript framework.
+- **TypeScript**: Static type checking.
+- **Pinia**: State management.
+- **Vuetify**: Material Design components.
+- **Vite**: Frontend tooling.
+- **Axios**: HTTP requests.
+- **Vitest**: Unit testing.
+- **Happy DOM**: DOM implementation for testing.
 
 ## Testing
 
-Unit tests are written using Vitest, and the Happy DOM environment is used to simulate a DOM in the tests. To run the tests, use the following command:
+Unit tests are executed using Vitest, with Happy DOM for DOM simulation. Run tests with:
 
+\`\`\`sh
 npm run test
-
+\`\`\`
