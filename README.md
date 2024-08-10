@@ -15,37 +15,31 @@ This is a web application built as part of an exam project for Torq company. The
 ## Installation
 
 1. Clone the repository:
-   \`\`\`sh
+
    git clone [<repository-url>](https://github.com/ezur1/torq-exam.git)
    cd ip-to-country-torq
-   \`\`\`
 
 2. Install dependencies:
-   \`\`\`sh
    npm install
-   \`\`\`
 
 ## Usage
 
 To run the application locally, use the following command:
 
-\`\`\`sh
 npm run dev
-\`\`\`
+
 
 This will start the development server, and you can view the application in your browser at \`http://localhost:3000\`.
 
 To build the application for production:
 
-\`\`\`sh
 npm run build
-\`\`\`
+
 
 To preview the production build:
 
-\`\`\`sh
 npm run preview
-\`\`\`
+
 
 ## Project Structure
 
@@ -79,6 +73,5 @@ The project follows a standard Vue 3 structure with the following key components
 
 Unit tests are written using Vitest, and the Happy DOM environment is used to simulate a DOM in the tests. To run the tests, use the following command:
 
-\`\`\`sh
 npm run test
-\`\`\`
+
